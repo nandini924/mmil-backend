@@ -2,10 +2,9 @@
   "name": "backend-mmil-website",
   "version": "1.0.0",
   "description": "a backend at mmil website",
-  "type":"module",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-
     "dev": "nodemon src/index.js"
   },
   "keywords": [
@@ -14,5 +13,8 @@
     "chai"
   ],
   "author": "mmil.nm",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.8.1"
+  }
 }
